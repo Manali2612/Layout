@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Frame</title>
+</head>
+
+<body>
+    <div class="column">
+        <div class="first">
+            <div class="logos">
+                <img src="logo.jpg" height= "82px" width= "232px" alt="HTML5 Icon" >
+            </div>
+            <div class="news">
+                <div class="newstittle">News</div>
+                <ul>
+                    <li><a href="#home">In just 20 days, Kerala gets highest August rains in 87 yrs</a></li>
+                    <li><a href="#home">Sports to be a fundamental right? SC to examine</a></li>
+                    <li><a href="#home">PM did not offer early India-Pak talks to Imran</a></li>
+                    <li><a href="#home">PM did not offer early India-Pak talks to Imran</a></li>
+                </ul>
+            </div>
+            <div class="add">
+                <img src="add.png" alt="HTML5 Icon" height="205px" width="232px" >
+            </div>
+        </div>
+        <div class="second">
+            <div class="banner">
+                <img src="banner.jpg" height= "82px" width= "557px" alt="HTML5 Icon" >
+            </div>
+            <div class="navigation">
+                <div class="topnav">
+                    <a class="active" href="#home">Home</a>
+                        <div class="vl"></div>
+                    <a href="#about">About Us</a>
+                        <div class="vl"></div>
+                    <a href="#testimonials">Customer Testimonials</a>
+                        <div class="vl"></div>
+                    <a href="#order">Order</a>
+                        <div class="vl"></div>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="text">
+                <div class="textDiv">
+                    <div class="row">
+                        <img src="sports.jpg" alt="HTML5 Icon" class="imagebox" >
+                        <a href="#home" class="imageboxtext">Indian U-16 football team went down fighting 1-2 to Oman in a friendly fixture in Turkey today</a>
+                    </div>
+                    <div class="row">
+                        <img src="horoscop.jpg" alt="HTML5 Icon" class="imagebox" >
+                        <a href="#home" class="imageboxtext">Daily Horoscope August 21, 2018 (Bhavishyavani): When to start auspicious works today</a>
+                    </div>
+                    <div class="row">
+                        <img src="politics.jpg" alt="HTML5 Icon" class="imagebox" >
+                        <a href="#home" class="imageboxtext">Atal Bihari Vajpayee's most profound creative disruptions in Indian politics: A camaraderie that built a legacy</a>
+                    </div>
+                    <div class="row">
+                        <img src="bollywood.jpg" alt="HTML5 Icon" class="imagebox" >
+                        <a href="#home" class="imageboxtext">Shahid Kapoor's wife Mira Rajput opens up about her Bollywood debut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="copyright">
+        Copyright @ 2018 · Have a lovely day!
+    </div>
+</body>
+
+<style>
+    .newstittle {
+        background-color: #DCDCDC;
+        padding: 5px;
+    }
+    .column {
+        display: flex;
+        flex-direction: row;
+    }
+    .first {
+
+    }
+    .second {
+        margin-left: 11px;
+    }
+    .logos {
+        height: 82px;
+        width: 232px;
+        border: 0px solid;
+        border-color: black;
+    }
+    img {
+        
+    }
+    .news {
+        height: 210px;
+        width: 232px;
+        border: 0px solid;
+        border-color: black;
+        margin-top: 11px;
+        padding-right: 0px;
+        background-color: #d2d2d2;
+    }
+    .add {
+        height: 205px;
+        width: 232px;
+        border: 0px solid;
+        border-color: black;
+        margin-top: 33px;
+    }
+    .banner {
+        height: 82px;
+        width: 557px;
+        border: 0px solid;
+        border-color: black;
+    }
+    .navigation {
+        height: 49px;
+        width: 557px;
+        border: 0px solid;
+        border-color: black;
+        margin-top: 11px;
+        background-color:#000099; 
+    }
+    .text {
+        height: 384px;
+        width: 557px;
+        border: 0px solid;
+        border-color: black;
+        margin-top: 15px;
+        background-color: #d2d2d2;
+    }
+    .textDiv {
+        padding-top: 10px; 
+        padding-left: 10px
+    }
+    .copyright {
+        height: 44px;
+        width: 800px;
+        border: 1px solid;
+        border-color: black;
+        margin-top: 15px;
+        text-align: center;
+        line-height: 44px;
+        background-color: #d2d2d2;
+    }
+    .vl {
+        border-left: 2px solid #FFFFFF;
+        height: 30px;
+        align-self: center;
+    }
+    .topnav a.active {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .topnav {
+        overflow: hidden;
+        display: flex;
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        color:#FFFFFF  ;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: underline;
+        font-size: 16px;
+    }
+    .row {
+        display: flex; 
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .imagebox {
+        border: 0px solid black;
+        height:80px;
+        width: 80px;
+    }
+    .imageboxtext {
+        padding-left: 5px;
+        max-width: 450px;
+    }
+
+</style>
+
+</html>
